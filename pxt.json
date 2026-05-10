@@ -1,0 +1,31 @@
+{
+    "name": "CAR:BIT WIFI IR Test",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "OSOYOO-IR-Silvery-Receiver": "github:osoyoo/OSOYOO_IR_V3#518d45e549193f72c4fcda40e6e9f2560c896362"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v7.0.61",
+        "tag": "v7.0.61",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/1bb8145a013b8c3718bf6c82138e87e3ecb5514d",
+        "target": "8.0.21",
+        "pxt": "11.1.14",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
